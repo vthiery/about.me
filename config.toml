@@ -1,0 +1,30 @@
+title = "vthiery"
+languageCode = "en-us"
+theme = "hugo-coder"
+
+[params]
+    author = "Vincent Thiery"
+    avatarurl = "img/me.webp"
+    info = "Site Reliability Engineer"
+    description = "Vincent Thiery's personal page"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/vthiery/"
+[[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase"
+    weight = 2
+    url = "https://keybase.io/vthiery"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/vjmthiery/"
+
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
